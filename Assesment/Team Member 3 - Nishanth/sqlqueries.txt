@@ -1,9 +1,0 @@
-insert into user values('muthu@gmail.com','muthu',27,'12344');
-insert into user values('deepak@gmail.com','deepak',18,'23354');
-insert into user values('dinesh@gmail.com','dinesh',19,'13354');
-insert into user values('nishanth@gmail.com','nishanth',25,'53354');
-
-update user set email='muthu2k@gmail.com' where rollnumber=27;
-insert into user values('joseph@gmail.com','josh',29,'22344');
-
-delete from user where username='josh'
