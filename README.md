@@ -16,4 +16,4 @@ This project aims at building a web App that automatically estimates food attrib
          
 # TECHNICAL ARCHITECTURE:
 
-https://lh5.googleusercontent.com/HptOGv0lSRnQb1--uqUV-lbXaDQwuSqggE0tHdCTwTBqLVJM5aTd0FIYPhdhsRRwMLA56hW881qT6Ys-6-bqMuEJGlrJLEU8YOLsz5fCg43Mp9YN2vHcR_letaL9jw
+![Untitled](https://user-images.githubusercontent.com/102889772/200161711-6778f910-2af7-4d1e-bfe4-49bfa11b1241.png)
