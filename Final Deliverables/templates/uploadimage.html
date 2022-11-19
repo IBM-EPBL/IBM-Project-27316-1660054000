@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nutrition Assistant Application</title>
+
+   <style>
+      nav
+    {
+        background-color: black;
+        color: white;
+        
+    }
+    input[type=file] 
+    {
+      width: 20%;
+      color: white;
+     
+  padding: 5px 5px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: 1px solid rgb(0, 0, 0);
+  background: #0d397c;
+    }
+    input[type=submit]
+    {
+      width: 10%;
+      color: white;
+      position: absolute;
+      top: 50%;
+      left: 22%;
+  padding: 5px 5px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border-radius: 20px;
+        box-shadow: 0px 2px 2px 2px gray;
+  background: black;
+    }
+    .file-upload-input
+    {
+        font-weight: bold;
+        color: white;
+        width: 100px;
+        position: absolute;
+      top: 40%;
+      left: 21%;
+        background-color: #0d397c;
+        border: 2px solid black;
+        padding: 8px 34px;
+        cursor: pointer;
+        border-radius: 20px;
+        box-shadow: 0px 2px 2px 2px gray;
+    }
+    h2
+    {
+        font-size: 30px;
+        top: 40%;
+    }
+    .a1
+    {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        left: 75%;
+        top: 11%;            
+    }
+    .a2
+    {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        left: 80%;
+        top: 11%;             
+    }
+    .a3
+    {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        left: 85%;
+        top: 11%;             
+    }
+    .a4
+    {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        left: 92%;
+        top: 11%;              
+    }
+    select
+    {
+        position: absolute;
+        top: 43%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        appearance: none;
+        width: 150px;
+        height: 35px;
+        padding: 6px 10px;
+        color: white;
+        background-color: #0d397c;
+        box-shadow: 0px 2px 2px 2px gray;
+        border: 2px solid black;
+        background-image: url("assets/image/arrow1.jpg");
+        background-repeat: no-repeat;
+        background-size: 30px;
+        background-position: 115px 0;
+
+    }
+    h1
+    {
+        font-size: 50px;
+        position: absolute;
+        top: 20%;
+        left: 10%;
+    }
+    </style>
+</head>
+<body>
+      <nav class="nav">
+            <h2>WELCOME !!</h2>
+            <a class="a1" href="home.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="a2" href="login.html">Login</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a class="a3" href="history.html">History</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!-- <a class="a4" href="photo.html">Upload</a> -->
+        </nav>
+        <h3>Here are tow option to find the Nutrition Present in the Food <br> one is simply Upload images by clciking Upload button <br> Another way is that choose any option given below in the Drop Down List</h3>
+      <input id="imgupload" type="file" onchange="readURL(this)" accept="image/*" name="imgupload" style="display:none;"><label for="imgupload" class="file-upload-input"><i></i>&nbsp;&nbsp;&nbsp;&nbsp;UPLOAD</label>
+      <a href="apple.html">
+          <input type="Submit" name="Submit" value="Submit">
+      </a>
+      <select name="fruites" id="fruites" onchange="fruit(this.value)">
+        <option disabled selected>Choose</option>
+        <option value="banana.html">Banana</option>
+        <option value="apple.html">Apple</option>
+        <option value="mango.html">Mango</option>
+        <option value="guava.html">Guava</option>
+    </select>
+    <!-- <p>Choose By select the Text</p> -->
+      <script>
+        function fruit(src)
+        {
+            window.location=src;
+        }
+      </script>
+</body>
+</html>
